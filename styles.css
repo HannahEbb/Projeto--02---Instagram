@@ -1,0 +1,425 @@
+/* Classes de divs estruturais */
+
+
+
+.header {
+    width: 1366px;
+    height: 54px;
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 1;
+}
+
+.headercontain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.header01 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.header02 {
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    padding-right: 107px;
+    padding-left: 107px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.header03 {
+    display: flex;
+}
+
+/* MOBILE! */
+.headermobile {
+    display: none;
+}
+/* MOBILE! */
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1366px;
+    background-color: #FAFAFA;
+}
+
+.coluna01 {
+    width: 749px;
+    margin-left: 215px;
+    margin-right: 29px;
+}
+
+.stories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 614px;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    margin-top: 90px;
+    margin-bottom: 24px;
+    padding-left: 32px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.perfilstories img {
+width: 10px;
+height: 10px;
+}
+
+/* Posicionei a borda dos stories atrás das imagens de perfil, mas não consegui aumentar o tamanho */
+.strbackg {
+    position: relative;
+}
+
+.storiesperfil {
+    margin-left: 24px;
+}
+
+.storiesperfil h4 {
+    text-align: center;
+}
+
+.strbackg img {
+width: 100px;
+height: 100px;
+}
+
+.strbackg div {
+    position: absolute;
+    top: 1px;
+}  
+
+.stories img {
+    width: 56px;
+    height: 56px;
+}
+
+.stories h4 {
+    text-overflow: ellipsis;
+}
+
+/* "Position absolute" em relação ao "position relative" dos stories */
+.setinha {
+    font-size: 32px;
+    color: #FFFFFF;
+    border-radius: 29px;
+    position: absolute;
+    right: 5px;
+	bottom: 38px;
+    z-index: 1;
+
+}
+
+.coluna02 {
+    width: 538px;
+}
+
+
+/* POSTS */
+
+
+.post {
+    width: 614px;
+    height: 749px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    background-color: #FFFFFF;
+}
+
+.iconespost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones01 {
+    display: flex;
+    align-items: center;
+}
+
+.topopost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+
+}
+
+.topopost01 {
+    display: flex;
+    align-items: center;
+}
+
+.basepost {
+    height: 82px;
+}
+
+.finalpost {
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 12px;
+    margin-top: 8px;
+}
+
+/* POSTS */
+
+.sidebar {
+    width: 300px;
+    margin-top: 110px;
+    margin-right: 215px;
+}
+
+.sidebar00 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.sidebar01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.sidebar02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.sidebar02 h4 {
+    margin-bottom: 6px;
+}
+
+.sidebar021 {
+    display: flex;
+}
+
+.sidebar03 {
+    height: 42px;
+    line-height: 13px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+}
+
+.sidebar04 {
+    height: 14px;
+}
+
+
+
+/* Classes de texto */
+
+.roboto11 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+.roboto12 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.roboto14 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.w300 {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.w400 {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.w500 {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.color-black {
+    color: #262626;
+}
+
+.color-grey1 {
+    color: #8E8E8E;
+}
+
+/* Cor do "Pesquisar" */
+.color-grey2 {
+    color: #979797;
+}
+
+.color-grey3 {
+    color: #C7C7C7;
+}
+
+.color-blue {
+    color: #139EF2;
+}
+
+/* Classes de img - fotos */
+
+.topopost img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.finalpost img {
+    margin-right: 5px;
+}
+
+.sidebar00 img {
+    margin-right: 17px;
+}
+
+.sidebar02 img {
+    margin-right: 11px;
+}
+
+/* Classes de img - ícones */
+
+.icones01 {
+    padding-left: 14px;
+    margin-top: 6px;
+}
+
+.icones01 ion-icon {
+    font-size: 20px;
+    margin-right: 18px;
+}
+
+.icones02 {
+    padding-right: 14px;
+    margin-top: 6px;
+}
+
+.icones02 ion-icon {
+    font-size: 20px;
+}
+
+.header01 ion-icon {
+    font-size: 20px;
+    margin-right: 20px;
+    padding-right: 11px;
+    border-right: 1px solid #DBDBDB;
+}
+
+
+.header03 ion-icon {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+/* RESPONSIVIDADE */
+
+
+@media (max-width: 935px) {
+    .coluna02{
+        display: none;
+    } 
+
+    .body {
+        width: 935px;
+        justify-content: center;
+    }
+
+    .container {
+        width: 935px;
+       margin-left: -50px;
+
+    }
+
+    .header {
+        width: 900px;
+        justify-content: center;
+    }
+
+    .headercontain {
+        margin-right: 0px;
+        margin-left: 21px;
+    }
+}
+
+@media (max-width: 614px) {
+
+    .header {
+        display: none;
+    }
+
+    .headermobile {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    }
+
+    .headercontainmobile {
+        display: flex;
+        width: 614px;
+        height: 54px;
+        border-bottom: 1px solid #DBDBDB;
+        background-color: #FFFFFF;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .headercontainmobile ion-icon {
+        font-size: 20px;
+    }
+
+    .coluna02{
+        display: none;
+    } 
+
+    .body {
+        width: 614px;
+        justify-content: center;
+    }
+
+    .container {
+        width: 614px;
+
+    }
+
+    .stories {
+        border: none;
+        background-color: #FAFAFA;
+    }
+
+    .setinha {
+        display: none;
+    }
+    
+} 
+
